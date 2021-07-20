@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "unityexporter": "file:../../fastlane-plugin-unity-exporter-package/Assets/UnityExporter",
     "com.unity.ide.rider": "3.0.7",
     "com.unity.ide.visualstudio": "2.0.11",
     "com.unity.ide.vscode": "1.2.3",
