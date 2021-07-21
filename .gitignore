@@ -59,12 +59,7 @@ sysinfo.txt
 crashlytics-build.properties
 
 # fastlane plugin unity exporter
-fastlane-unity-exporter/ios-export/*
-fastlane-unity-exporter/android-export/*
+fastlane-unity-exporter/iOS/unity-export/*
+fastlane-unity-exporter/Android/unity-export/*
 fastlane-unity-exporter/*/fastlane/report.xml
 fastlane-unity-exporter/**/*.log
-!fastlane-unity-exporter/*/fastlane/
-!fastlane-unity-exporter/*/Gemfile
-!fastlane-unity-exporter/*/Gemfile.lock
-
-
