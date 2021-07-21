@@ -1,5 +1,5 @@
 PATH
-  remote: /Users/stefan/Desktop/git-repositories/fastlane-plugin-unity-exporter/fastlane-plugin-unity_exporter
+  remote: ../../../fastlane-plugin-unity-exporter
   specs:
     fastlane-plugin-unity_exporter (0.1.0)
 

@@ -2,4 +2,4 @@
 #
 # Ensure this file is checked in to source control!
 
-gem "fastlane-plugin-unity_exporter", path: "../../../../fastlane-plugin-unity-exporter/fastlane-plugin-unity_exporter"
+gem "fastlane-plugin-unity_exporter", path: "../../../../fastlane-plugin-unity-exporter"
