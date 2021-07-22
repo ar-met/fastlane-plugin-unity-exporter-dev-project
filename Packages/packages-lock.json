@@ -52,7 +52,7 @@
         "com.unity.modules.imgui": "1.0.0"
       }
     },
-    "unityexporter": {
+    "io.armet.unity.exporter": {
       "version": "file:../../fastlane-plugin-unity-exporter-package/Assets/UnityExporter",
       "depth": 0,
       "source": "local",
