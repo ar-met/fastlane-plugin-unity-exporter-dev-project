@@ -8,6 +8,6 @@ cd ..
 cd fastlane-plugin-unity-exporter
 rake release
 cd ..
-cd fastlane-plugin-unity-exporter-project/fastlane-unity-exporter/iOS
+cd fastlane-plugin-unity-exporter-project/fastlane-build-exporter/iOS
 bundle exec fastlane install_plugins
 bundle exec fastlane custom_lane
