@@ -61,6 +61,11 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+# ignoring specific .gitkeep files
+# fastlane initialization can be triggered based on the existence of these .gitkeep files
+# for testing purposes we always want to be able to trigger this initialization
+fastlane-build-exporter/*/.gitkeep
+
 # fastlane plugin unity exporter
 fastlane-build-exporter/*/unity-export/*
 fastlane-build-exporter/*/fastlane/report.xml
