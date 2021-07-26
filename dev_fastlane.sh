@@ -1,8 +1,8 @@
 # expects the following hierarchy
 # root/ 
 #   |-- fastlane-plugin-unity-exporter/
-#   |-- fastlane-plugin-unity-exporter-package/
-#   |-- fastlane-plugin-unity-exporter-project/
+#   |-- unity-build-exporter/
+#   |-- fastlane-plugin-unity-exporter-dev-project/
 
 cd ..
 cd fastlane-plugin-unity-exporter
