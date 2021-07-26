@@ -1,6 +1,6 @@
 # fastlane plugin unity dev project
 
-This Unity project that can be used for local development of the [_fastlane-plugin-unity-exporter_](https://github.com/ar-met/fastlane-plugin-unity-exporter). Note that this project has two existing _fastlane_ setups -- one for iOS and one for Android. These are not linked to an actual app in any store and are only used for development purposes. Find the _fastlane_ setups in:
+This Unity project can be used for local development of the [_fastlane-plugin-unity-exporter_](https://github.com/ar-met/fastlane-plugin-unity-exporter). Note that this project has two existing _fastlane_ setups -- one for iOS and one for Android. These are not linked to an actual app in any store and are only used for development purposes. Find the _fastlane_ setups in:
 * [iOS fastlane](./fastlane-build-exporter/iOS)
 * [Android fastlane](./fastlane-build-exporter/Android)
 
@@ -11,10 +11,12 @@ Note that this project expects the following hierarchy:
 
 ```
 root
-  |-- fastlane-plugin-unity-exporter
-  |-- unity-build-exporter
+  |-- fastlane-plugin-unity-exporter [0]
+  |-- unity-build-exporter [1]
   |-- fastlane-plugin-unity-exporter-dev-project (this repository)
 ```
+
+[[0]](https://github.com/ar-met/fastlane-plugin-unity-exporter)[[1]](https://github.com/ar-met/unity-build-exporter)
 
 Local relative references to the [_fastlane-plugin-unity-exporter_](https://github.com/ar-met/fastlane-plugin-unity-exporter) exist in:
 * [iOS fastlane Pluginfile](./fastlane-build-exporter/iOS/fastlane/Pluginfile)
@@ -30,7 +32,7 @@ When making changes to _fastlane-plugin-unity-exporter_ a new _gem_ must be buil
 * [iOS Fastfile](./fastlane-build-exporter/iOS/fastlane/Fastfile)
 * [Android Fastfile](./fastlane-build-exporter/Android/fastlane/Fastfile)
 
-Note that making changes to _unity-build-exporter_ will automatically trigger a re-build as any change to a script would. No further steps are necessary to apply changes made to _unity-build-exporter_
+Note that making changes to _unity-build-exporter_ will automatically trigger a re-build as any change to a script would. No further steps are necessary to apply changes made to _unity-build-exporter_.
 
 ### Summing it up
 1) build a new _gem_ for _fastlane-plugin-unity-exporter_
