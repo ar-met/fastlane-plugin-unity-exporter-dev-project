@@ -674,7 +674,7 @@ PlayerSettings:
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 0
   scriptingDefineSymbols:
-    4: UNITY_EXPORTER_DEV
+    4: 
     7: 
   additionalCompilerArguments: {}
   platformArchitecture: {}
