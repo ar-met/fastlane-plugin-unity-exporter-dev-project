@@ -39,5 +39,5 @@ Note that making changes to _unity-build-exporter_ will automatically trigger a 
 2) re-install the new _gem_
 3) start a lane
 
-The shell script [dev_fastlane.sh](./dev_fastlane.sh) executes all these steps for you.
+The shell scripts [dev_fastlane_ios.sh](./dev_fastlane_ios.sh) or [dev_fastlane_android.sh](./dev_fastlane_android.sh) executes all these steps for you.
 
